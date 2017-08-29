@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>SHAREYO WIKI</title>
+	<meta name="Description" content="香柚科技">
+	<link rel="stylesheet" type="text/css" href="static/css/base.css">	
+	<link rel="stylesheet" type="text/css" href="static/css/style.css">
+</head>
+<body ng-app="WIKI">
+	<header>
+		ApiWiki
+	</header>
+	<div class="containers">
+		<div class="wiki-left" navTop>
+			<ul class="list">
+				<li><a href="#!/preview">总述</a></li>
+				<li><a href="#!/introduction">简介</a></li>
+			</ul>
+		</div>
+		<div class="wiki-right">
+			<div ng-view="">
+    		</div>
+		</div>
+	</div>
+	<footer>
+		
+	</footer>
+	<script src="static/js/angular.min.js"></script>
+	<script src="static/js/angular-route.min.js"></script>
+	<script src="static/js/route.js"></script>
+	<script src="static/js/main.js"></script>
+</body>
+</html>
